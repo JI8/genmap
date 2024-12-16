@@ -161,8 +161,6 @@ export default function Map({ locations, selectedLocation, countryFilter }: MapP
         minZoom={2}
         maxBounds={[[-90, -180], [90, 180]]}
         scrollWheelZoom={true}
-        smoothWheelZoom={true}
-        smoothWheelDelay={150}
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
